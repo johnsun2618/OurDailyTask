@@ -14,6 +14,12 @@ nav{
 	position:fixed;
 	z-index: 1;
 }
+.nav-divider{
+    border-top: 2px solid #e6e6e6;
+    height: 0;
+    width: 100%;
+    
+}
 
 div.icon{
     float: left;
@@ -44,6 +50,7 @@ nav ol ul a:hover{
     width: 100%;
     overflow: hidden;
     -webkit-tap-highlight-color: transparent;
+    display:flex;
 }
 
 .centerContainer {
@@ -64,7 +71,8 @@ nav ol ul a:hover{
 
 .stepLogoContainer {
     display: inline-block;
-    margin-top: 120px;
+    margin-top: 160px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -74,5 +82,67 @@ nav ol ul a:hover{
 }
 
 h1{
-    font-weight: 500;
+    font-weight: 400;
+}
+
+.stepIndicator b{
+    font-weight: 200;
+}
+
+.contextBody-contextRow{
+    text-decoration: none;
+    padding: auto;
+    text-align: left;
+    display: flex;
+  
+
+
+}
+
+.checkmark-group{
+    list-style: none;
+
+}
+
+.SubmitBtnContainer{
+    max-width: 340px;
+    margin-top: 24px;
+}
+.NextButtonStep2{
+	background-color: #e50914;
+	color: #fff;
+	display: block;
+	position: relative;
+	margin: auto;
+	padding: .8em 2.2em;
+	cursor: pointer;
+	border: none;
+	border-radius: .2em;
+	font-size: 1.4em;
+	letter-spacing: 0.04em;
+	width: 350px;
+	-webkit-border-radius: .2em;
+	-moz-border-radius: .2em;
+	-ms-border-radius: .2em;
+	-o-border-radius: .2em;
+}
+.footer-divider{
+    border-top: 1px solid #e6e6e6;
+    height: 0;
+    width: 100%;
+    display: block;
+}
+
+.footerForChooseYourplan{
+    background-color: #f3f3f3;
+    margin-top: 0;
+    opacity: 1;
+    display: block;
+    color: #737373;
+    font-size: 1em;
+    min-width: 190px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+    
 }
